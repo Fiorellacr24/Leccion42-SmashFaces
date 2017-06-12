@@ -1,0 +1,53 @@
+.f-roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.f-rokkitt{
+	font-family: 'Rokkitt', serif;
+}
+.cabecera{
+	margin-bottom: 20px;
+}
+hr{
+	width: 100px;
+	float: left;
+	border-top: 2px solid black;
+	margin: 0;
+}
+h1{
+	margin-bottom: 0;
+}
+.form-control:nth-child(1){
+	background-color: #ccc;
+}
+.form-inline .form-group label:nth-child(2){
+	float: right;
+	font-weight: 600;
+}
+@media (min-width: 1024px){
+	.form-inline .form-group select{
+		width: 200px;
+	}
+	.view-play{
+		margin-left: 140px;
+	}
+}
+.cont-coder{
+	height: 300px;
+	background-color: gray;
+}
+.cont-input{
+	background-color: #333333;
+	height: 300px;
+	line-height: 80px;
+	padding: 30px;
+}
+.cont-input label{
+	font-weight: 100;
+	font-size: 20px;
+}
+.white{
+	color: white;
+}
+.btn-warning{
+	background-color: #f9a91a;
+}
